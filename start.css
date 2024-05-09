@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+#green {
+    order:3;
+    flex: 1;
+  }
+  
+  #orange {
+    order:4;
+    flex: 4;
+    
+  }
+  
+  #yellow {
+    order:1;
+    flex: 1;
+  }
+  
+  #red {
+    order: 2;
+    flex: 1;
+    
+    
+  }
+  
+  #blue {
+    order:5;
+    flex: 1;
+   
+  }
+  

@@ -1,6 +1,9 @@
 body {
   width: 60em;
   margin: 0 auto;
+ 
+  
+  
 }
 
 section {
@@ -10,22 +13,34 @@ section {
 
 #green {
   background-color: #8ffda7;
+  order:3;
+  
 }
 
 #orange {
   background-color: #ffc788;
+  order:4;
+  
+  
 }
 
 #yellow {
   background-color: #ffff92;
+  order:1;
+  
 }
 
 #red {
   background-color: #ff919c;
+  order: 2;
+  
+  
 }
 
 #blue {
   background-color: #98d2ff;
+  order:5;
+ 
 }
 
 ul {
@@ -35,6 +50,8 @@ ul {
 li {
   background-color: white;
   padding: 1em;
-  display: block;
+  display: flex;
   margin: 1em;
+  
+  
 }
